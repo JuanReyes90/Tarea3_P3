@@ -1,0 +1,13 @@
+{
+  "name": "crud-tareas-gitflow",
+  "version": "1.0.0",
+  "description": "CRUD de tareas con Node.js y Express, desarrollado con Git Flow",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
