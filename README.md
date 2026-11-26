@@ -22,3 +22,4 @@ Abrir http://localhost:3000
 - `POST /api/tareas`: crear una tarea
 - `GET /api/tareas`: listar tareas
 - `GET /api/tareas/:id`: obtener una tarea
+- `PUT /api/tareas/:id`: editar una tarea
