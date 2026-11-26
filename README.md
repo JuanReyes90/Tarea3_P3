@@ -19,3 +19,4 @@ Abrir http://localhost:3000
 - `feature/*`: una rama por funcionalidad
 
 ## Endpoints
+- `POST /api/tareas`: crear una tarea
