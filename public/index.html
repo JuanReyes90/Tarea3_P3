@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRUD de Tareas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Gestor de Tareas</h1>
+
+    <form id="form">
+      <input type="hidden" id="id" />
+      <input type="text" id="titulo" placeholder="Título de la tarea" required />
+      <input type="text" id="descripcion" placeholder="Descripción (opcional)" />
+      <div class="botones">
+        <button type="submit" id="guardar">Agregar</button>
+        <button type="button" id="cancelar" hidden>Cancelar</button>
+      </div>
+    </form>
+
+    <ul id="lista"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
