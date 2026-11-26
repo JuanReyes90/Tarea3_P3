@@ -24,3 +24,4 @@ Abrir http://localhost:3000
 - `GET /api/tareas/:id`: obtener una tarea
 - `PUT /api/tareas/:id`: editar una tarea
 - `DELETE /api/tareas/:id`: eliminar una tarea
+- Interfaz web en `/` para crear, listar, editar y eliminar tareas
